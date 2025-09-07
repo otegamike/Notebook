@@ -83,6 +83,8 @@ body {
 .notes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 ul {
@@ -219,4 +221,17 @@ textarea {
     color: grey;
     font-size: small;
     margin-top: 3px;
+}
+
+.spinner {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }   
+      to {
+        transform: rotate(360deg);
+      } 
 }

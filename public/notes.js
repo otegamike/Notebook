@@ -1,5 +1,11 @@
 
 async function getNotes() {
+
+    const noteEl = document.getElementById("notes") ;
+    noteEl.innerHTML = '<img class="spinner" src="/src/load.png" width="80px" alt="loading..." />';
+
+
+
     const request = await fetch("/getNotes");
 
     const loaddate= (date) => {
@@ -78,7 +84,7 @@ const saveNote = async () => {
     const createTime = new Date().toISOString();
 
     const saveEl = document.getElementById("save");
-    saveEl.innerHTML = '<img src="/Notebook/src/load.png" width="20px" alt="loading..." />';
+    saveEl.innerHTML = '<img class="spinner" src="/src/load.png" width="20px" alt="loading..." />';
 
     if (content==="") {
         const c = document.getElementById("content");
@@ -103,7 +109,7 @@ const saveNote = async () => {
 
         const result = await res.json();
         console.log("Success!", result);
-        saveEl.innerHTML = '<img src="/Notebook/src/check.png" width="20px" alt="done" />';
+        saveEl.innerHTML = '<img src="/src/check.png" width="20px" alt="done" />';
         setTimeout(() => {
             saveEl.innerHTML = "Done";}, 2000);
     } 
