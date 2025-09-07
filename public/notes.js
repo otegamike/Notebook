@@ -115,6 +115,5 @@ const saveNote = async () => {
 
 
 
-document.getElementById("test").innerHTML = "active!";
 
 
