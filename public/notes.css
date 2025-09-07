@@ -1,0 +1,219 @@
+
+:root {
+    --primary-color:#a8e000;
+    --primary-color2:#b9e633;
+    --primary-color3:#caec66;
+    --colorlight:#dcf399;
+    --colorligher:#edf9cc;
+    --colordark:#96c703;
+    --colordarker:#7fa804;
+    --colorwhite:#fcfff2;
+
+
+
+}
+
+body {
+    background-color: var(--colorlight);
+    padding: 0px;
+    margin: 0px;
+}
+
+#test {color: green}
+
+.noteHeader {
+    
+    background-color: var(--primary-color2) ;
+    padding: 12px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 10px grey;
+    z-index: 2;
+    
+    
+    
+
+    
+} 
+.header {
+    font-size: 2.5em;
+    font-weight:bold;
+
+}
+
+.spanContainer {
+    display: flex;
+    width: 85px;
+    justify-content: space-between;
+   
+}
+
+.addNote { 
+    width: 35px;
+    height: 35px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.select { 
+    width: 35px;
+    height: 35px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.spanCon {
+    border: 2px solid var(--colorligher);
+    border-radius: 20%;
+    background-color: var(--colordark);
+    cursor: pointer;
+}
+
+.spanCon:hover {
+    background-color: var(--colordarker);
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+li {
+    width: 400px;
+    max-width: 500px;
+    background-color: var(--colorligher);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    max-height: 300px;
+
+
+}
+
+li:hover {
+    box-shadow: 0px 0px 10px var(--primary-color);
+    background-color: var(--colorlight);
+}
+
+.bold {
+    font-weight: bold;
+    color: var(--colordarker);
+    width: 100%;
+    font-size: 23px;
+    margin-bottom: 5px;
+
+}
+
+.content {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.textContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;margin-top: 15px;
+}
+
+input[type="text"] {
+    outline: none; 
+    border: 0px;  
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"]:focus {
+    background-color: var(--colorligher); 
+    box-shadow: 0 0 1px var(--primary-color);
+  }
+
+.textinput {
+    background-color: var(--colorwhite);
+    width: 80%;
+    max-height:200px ;
+    outline: none;
+    border-radius: 15px;
+}
+
+.title {
+    width: 95%;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--colordark);
+    margin: 8px;
+
+}
+
+textarea {
+    width: 95%;
+    height: 50px;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    outline: none;
+    resize: none;
+    margin: 8px;
+    margin-top: 0px;
+}
+
+
+.textinput:hover {
+    box-shadow: 0px 0px 10px var(--primary-color);
+}
+
+.saveCon {
+    display: flex;
+    justify-content: right;
+
+}
+
+.save {
+    display: flex;
+    background-color: var(--colordark);
+    color: var(--colorligher);
+    padding: 5px 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom:10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.save:hover {
+    background-color: var(--colordarker);
+}
+
+.dateCon {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    margin-top: auto;
+}
+
+.date {
+    color: grey;
+    font-size: small;
+    margin-top: 3px;
+}

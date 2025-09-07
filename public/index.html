@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/notes.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook</title>
+</head>
+<body>
+    <div id="header" class="noteHeader">
+        <span class="header">My Notebook</span>
+        <div class="spanContainer">
+         <span class="addNote spanCon" id="addNote"><img src="/src/add-note.png" width="33px" alt="Add note" /></span>
+         <span class="select spanCon" id="select"><img src="/src/select.png" width="30px" alt="select" /></span>
+        </div> 
+    </div> 
+        
+        <div class="textContainer">
+            <div class="textinput" id="inputarea">
+                <input type="text" placeholder="Title" id="title" class="title" oninput="formatTitle()">
+                <textarea name="content" placeholder="Take a note..." id="content"></textarea>
+                <div class="saveCon">
+                    <span class="save" onclick="saveNote()" id="save"> Done</span>
+                </div>
+            </div>
+        </div>
+
+    <div class="notes" id="notes"> </div>
+
+
+   
+    <p id="test"></p>
+
+    <script src="/notes.js"></script>
+</body>
+</html>

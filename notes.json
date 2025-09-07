@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Grocery list for weeekend",
+    "content": "Get yam, tomantoes, and pepper for stew. \n Get plantain for frying (ripe ones). \nPick up indomie and egg for quick meals. \n check if we need eggs for quick meals. \nGrab some Maltina for the family hangout.",
+    "createTime": "2025-01-01T06:20:56.395525Z"
+  },
+  {
+    "id": 2,
+    "title": "T-classic playlist ideas",
+    "content": "inspired by Nobody fine pass you vibes \n 1. T-classic - Nobody fine pass you(add to party mix) \n2.Burna Boy - On the low (smooth Afrobeat for evening chill). \n3. Davido - Fall (classic love jam). \n4.Ojuelegba (for nostalgic feels). \nPlan to create a Spotify playlist for the next road trip. \nCheck for T-Classic lastest releases!",
+    "createTime": "2025-04-17T23:58:19.903335Z"
+  },
+  {
+    "id": 3,
+    "title": "Work Meeting - Project Kickoff",
+    "content": "Date: Sept 5, 2025 \nTime: 10 Am WAT \nAgenda: \n - Discuss timeline for website redesign. \n -Assign roles for HTML/CSS (me), Javascript (Tolu), and backend (Chidi). \n - Review  client feedback on wireframes. \n - Set up Trello board for tasks. \n - Action items: Update VS Code project with new CSS styled for homepage (style.css). Test index.js for button functionality. ",
+    "createTime": "2025-01-07T09:20:46.957708Z"
+  },
+  {
+    "id": 4,
+    "title": "Fitness Goals for September",
+    "content": " - Jog 3 times a week (Mon, Wed, Fri) at 6 AM. \n - Try that Egusi diet plan (kow carbs, more protien). \n - Join the gym near Lagos island by mid-month. \n - Reward: New sneakers if I stick to the plan for 2 weeks!",
+    "createTime": "2025-08-07T12:52:26.695604Z"
+  },
+  {
+    "id": 5,
+    "title": "Random Story Idea",
+    "content": "Inspired by Lagos nightlife: a young DJ falls for a dancer who only performs to afrobeat tracks like Nobody Fine Pass you. she's the daugther of a strict politician who disapproves. Plot twist: she's secretly a math teacher by day, using her earnings to fund a community sschool. Write a short story about their clash of worlds - music, love, and ambition.",
+    "createTime": "2024-09-08T06:03:32.923313Z"
+  },
+  {
+    "id": 6,
+    "title": "VS Code Shortcut to learn",
+    "content": "I need to learn all the VS Code shortcuts that I can learn if im going to be anything like a decent programmer or even work in tech because the keyboard is the most important skill to learn when it comes to learning anything on the computer. So by God's grace i'm going to master this thing by all means neccessary or else what's the point of being a programmer without knowing how to type on the keyboard",
+    "createTime": "2025-02-07T06:53:00.507945Z"
+  },
+  {
+    "id": 7,
+    "title": "Travel Checklist",
+    "content": "Passport\nPhone charger\nToiletries\nLight jacket\nTravel adapter",
+    "createTime": "2025-09-06T17:27:23.463Z"
+  },
+  {
+    "id": 8,
+    "title": "Recipe: Pancakes",
+    "content": "Ingredients: flour, milk, eggs, sugar, butter\nSteps:\n1. Mix all ingredients\n2. Heat pan and pour batter\n3. Flip when bubbles form\n4. Serve with honey",
+    "createTime": "2025-09-06T18:16:04.309Z"
+  },
+  {
+    "id": 9,
+    "title": "Books To Read",
+    "content": "Atomic Habits by James Clear\nDeep Work by Cal Newport\nThe Pragmatic Programmer by Andrew Hunt",
+    "createTime": "2025-09-06T18:52:08.028Z"
+  },
+  {
+    "id": 10,
+    "title": "Learning Goals",
+    "content": "Improve React skills. Learn Node.js authentication. Practice German 15 minutes daily.",
+    "createTime": "2025-09-06T18:54:10.428Z"
+  },
+  {
+    "id": 11,
+    "title": "Workout Plan",
+    "content": "Monday: Chest + Triceps\nWednesday: Back + Biceps\nFriday: Legs + Shoulders\nSaturday: Cardio + Core",
+    "createTime": "2025-09-06T22:42:01.036Z"
+  },
+  {
+    "id": 12,
+    "title": "Project Ideas",
+    "content": "Build a personal finance tracker. Create a weather app with API. Develop a simple chat app with WebSocket",
+    "createTime": "2025-09-06T23:05:45.767Z"
+  }
+]
