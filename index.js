@@ -41,6 +41,21 @@ app.get("/getNotes" , (req , res) => {
     else {res.json([])}
 })
 
+app.post("/delNote", (req , res) => {
+    const id = req.body.id;
+    let notes = [];
+
+    if (fs.existsSync(noteFiles)) {
+        const data = fs.readFileSync(noteFiles);
+        notes = JSON.parse(data);
+
+        notes = notes.filter( note => note.id !== id)
+
+        fs.writeFileSync(noteFiles , JSON.stringify(notes, null , 2));
+        res.status(201).json([]);
+        console.log(`note ${id} has been deleted`)
+    }
+})
 
 app.post("/newNote", (req , res) => {
     const { title, content, createTime} = req.body ;
