@@ -17,7 +17,7 @@ liveReloadServer.server.once("connection", () => {
     }, 100);
   });
 
-app.use(connectLivereload());
+app.use(connectLivereload()); 
 
 app.use(express.json());
 
@@ -54,6 +54,27 @@ app.post("/delNote", (req , res) => {
         fs.writeFileSync(noteFiles , JSON.stringify(notes, null , 2));
         res.status(201).json([]);
         console.log(`note ${id} has been deleted`)
+    }
+})
+
+app.post("/editNote" , (req , res) => {
+   const {nId, id , title , content , createTime} = req.body ;
+    let notes = [];
+    if (fs.existsSync(noteFiles)) {
+        const data = fs.readFileSync(noteFiles);
+        notes = JSON.parse(data)
+
+        const newObj = {id: nId, title: title, content: content, createTime: createTime} ;
+        const index = notes.findIndex(note => note.id ===id);
+        if (index !== -1) { 
+            notes[index] = newObj ;
+        }
+
+        fs.writeFileSync(noteFiles, JSON.stringify(notes , null , 2));
+        res.status(200).json([]);
+        console.log(`note ${id} has been edited`);
+        console.log(newObj) ;
+        
     }
 })
 

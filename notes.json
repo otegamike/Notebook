@@ -18,10 +18,10 @@
     "createTime": "2025-01-07T09:20:46.957708Z"
   },
   {
-    "id": 4,
-    "title": "Fitness Goals for September",
-    "content": " - Jog 3 times a week (Mon, Wed, Fri) at 6 AM. \n - Try that Egusi diet plan (kow carbs, more protien). \n - Join the gym near Lagos island by mid-month. \n - Reward: New sneakers if I stick to the plan for 2 weeks!",
-    "createTime": "2025-08-07T12:52:26.695604Z"
+    "id": 16,
+    "title": "Fitness Goals for September ",
+    "content": " - Jog 4 times a week (Mon, Wed, Fri) at 6 AM. \n - Try that Egusi diet plan (kow carbs, more protien). \n - Join the gym near Lagos island by mid-month. \n - Reward: New sneakers if I stick to the plan for 2 weeks! ",
+    "createTime": "2025-09-12T21:27:42.467Z"
   },
   {
     "id": 5,
@@ -36,16 +36,10 @@
     "createTime": "2025-02-07T06:53:00.507945Z"
   },
   {
-    "id": 7,
-    "title": "Travel Checklist",
-    "content": "Passport\nPhone charger\nToiletries\nLight jacket\nTravel adapter",
-    "createTime": "2025-09-06T17:27:23.463Z"
-  },
-  {
-    "id": 8,
-    "title": "Recipe: Pancakes",
-    "content": "Ingredients: flour, milk, eggs, sugar, butter\nSteps:\n1. Mix all ingredients\n2. Heat pan and pour batter\n3. Flip when bubbles form\n4. Serve with honey",
-    "createTime": "2025-09-06T18:16:04.309Z"
+    "id": 15,
+    "title": "Travel Checklist  ",
+    "content": "Passport\nPhone charger\nToiletries\nLight jacket\nTravel adapterr ",
+    "createTime": "2025-09-12T21:27:10.112Z"
   },
   {
     "id": 9,
@@ -54,21 +48,15 @@
     "createTime": "2025-09-06T18:52:08.028Z"
   },
   {
+    "id": 9,
+    "title": "Recipe: Pancakes",
+    "content": "Ingredients: flour, milk, eggs, sugar, butter\nSteps:\n1. Mix all ingredients\n2. Heat pan and pour batter\n3. Flip when bubbles form\n4. Serve without honey",
+    "createTime": "2025-09-12T21:24:21.223Z"
+  },
+  {
     "id": 10,
-    "title": "Learning Goals",
-    "content": "Improve React skills. Learn Node.js authentication. Practice German 15 minutes daily.",
-    "createTime": "2025-09-06T18:54:10.428Z"
-  },
-  {
-    "id": 11,
-    "title": "Workout Plan",
-    "content": "Monday: Chest + Triceps\nWednesday: Back + Biceps\nFriday: Legs + Shoulders\nSaturday: Cardio + Core",
-    "createTime": "2025-09-06T22:42:01.036Z"
-  },
-  {
-    "id": 12,
-    "title": "Project Ideas",
-    "content": "Build a personal finance tracker. Create a weather app with API. Develop a simple chat app with WebSocket",
-    "createTime": "2025-09-06T23:05:45.767Z"
+    "title": "I'm Slim Shady",
+    "content": "I'm slim shady\nand I'm slim shady\nthe only slim shady \nevery other shady is just imitating...",
+    "createTime": "2025-09-12T21:29:55.648Z"
   }
 ]

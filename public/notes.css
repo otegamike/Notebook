@@ -97,6 +97,7 @@ ul {
 }
 
 li {
+    position: relative ;
     width: 90%;
     max-width: 400px;
     background-color: var(--colorligher);
@@ -109,6 +110,7 @@ li {
     margin-top: 15px;
     cursor: pointer;
     max-height: 300px;
+    transition: height 1s linear ;
 
 
 }
@@ -265,13 +267,24 @@ textarea:focus {
 
 }
 
-.delete {
+.contentCon {
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+
+.float { 
     position: absolute;
     display: flex;
     top: -5px;
     right: -5px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+.floatbutton {
     width: 32px;
     height: 32px;
+    margin-left: 6px;
     box-sizing: border-box;
     border: 2px solid var(--colordark);
     background-color: #edf9cc;
@@ -284,12 +297,67 @@ textarea:focus {
 
 }
 
-.delete :hover{
+.floatbutton:hover{
+    box-sizing: border-box;
     background-color: #dcf399;
     
 }
 
-li:hover .delete{
+.floatbuttonDark {
+    width: 32px;
+    height: 32px;
+    margin-left: 6px;
+    box-sizing: border-box;
+    border: 2px solid var(--colordark);
+    background-color: var(--colordark);
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px grey;
+    justify-content: center;
+    padding-top: 1px;
+    opacity: 0;
+    transition: opacity 0.5s, background-color 0.5s;
+
+}
+
+.floatbuttonDark:hover{
+    box-sizing: border-box;
+    background-color: var(--colordarker);
+    
+}
+
+.edit {
+    position: absolute;
+    display: flex;
+    top: -5px;
+    right: 32px;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    border: 2px solid var(--colordark);
+    background-color: #edf9cc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px grey;
+    justify-content: center;
+    padding-top: 1px;
+    opacity: 1;
+    transition: opacity 0.5s, background-color 0.5s;
+
+}
+
+.edit :hover{
+    background-color: #dcf399;
+    
+}
+
+li:hover .floatbutton{
+    opacity: 1;
+}
+
+li:hover .floatbuttonDark{
+    opacity: 1;
+}
+
+li:hover .edit{
     opacity: 1;
 }
 
@@ -308,4 +376,14 @@ li:hover .delete{
     top: 130px;
     
     
+}
+
+.date {
+    position:absolute;
+    display:inline-block;
+    white-space:nowrap;
+    bottom: 5px;
+    right: 10px;
+    box-sizing: border-box;
+    justify-content: right;
 }
